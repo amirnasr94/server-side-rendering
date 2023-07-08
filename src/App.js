@@ -1,9 +1,11 @@
+import About from "./components/About";
+import Home from "./components/Home";
 
 const App = () => {
   return (
-    <div className="App">
-        <h1>hello world!</h1>
-    </div>
+    <>
+      <Home/>
+    </>
   );
 }
 
